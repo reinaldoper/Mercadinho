@@ -1,0 +1,114 @@
+#navcenter {
+    background-color: rgb(233, 241, 233);
+    font: normal 20px Arial;
+    padding: initial;
+}
+
+.nav-link {
+    background-color: gray;
+    transition: background-color 1s;
+}
+
+.nav-link:hover {
+    background-color: #606060;
+}
+
+body {
+    background-image: url("img/mercado.png");
+}
+
+section {
+    background: rgba(50, 13, 134, 0.397);
+    border-radius: 10px;
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(14, 20, 15, 0.884);
+    image-rendering: auto;
+    font: normal 20px italic;
+}
+
+div#div-list {
+    background: rgba(14, 5, 131, 0.397);
+    position: absolute;
+    width: 350px;
+    image-rendering: auto;
+    border-radius: 10px;
+    margin: 0px 0px 0px 5px;
+    box-shadow: 5px 5px 10px rgba(14, 20, 15, 0.884);
+}
+
+div#div-list li {
+    list-style: none;
+}
+
+div#_div {
+    background: rgba(14, 5, 131, 0.397);
+    position: absolute;
+    width: 350px;
+    image-rendering: auto;
+    border-radius: 10px;
+    margin: 0px 5px 0px 1180px;
+    box-shadow: 5px 5px 10px rgba(14, 20, 15, 0.884);
+}
+
+h1#font {
+    font: normal 30px Arial;
+    box-shadow: 5px 5px 10px rgba(14, 20, 15, 0.884);
+}
+
+.container-fluid {
+    padding: 0;
+    background-color: #d3d3d3;
+    border-bottom: 2px solid #333;
+}
+
+h1 {
+    font: normal 50px Arial;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font: normal 30px Arial;
+    text-align: center;
+    color: black;
+}
+
+footer {
+    background-color: rgba(41, 201, 68, 0.884);
+    text-align: center;
+    width: 800px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(5, 15, 7, 0.884);
+    border-radius: 10px;
+}
+
+.container iframe#iframe {
+    background-color: rgba(24, 238, 63, 0.884);
+    width: 350px;
+    position: absolute;
+    padding: 30px;
+    margin: 150px 10px 0px 980px;
+}
+
+.container form#cont {
+    background-color: lawngreen;
+}
+
+ul#ul li {
+    list-style: none;
+}
+
+.step-links {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.step-links .current {
+    margin-left: 5px;
+    margin-right: 5px;
+}

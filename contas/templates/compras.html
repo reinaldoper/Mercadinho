@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    {% load static %}
+
+    <title>Compras</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <ul class="nav justify-content-center" id="navcenter">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Entrar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="lista/">Lista</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="newmercado/">Compras</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="newCliente/">Cadastrar</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h1>Mercado Central</h1>
+        <h2>O melhor preço voçê encontra aqui!</h2>
+    </div>
+    <div id="div-list">
+        <h1 id="font">Vem pra cá!:</h1>
+        <ul>
+            <li> <strong> Compras: </strong> {{num_compras}} </li>
+            <li> <strong> Visitas: </strong>{{num_visits}}</li>
+        </ul>
+    </div>
+    <div id="_div">
+        <h1 id="font">Promoções:</h1>
+
+    </div>
+    <div class="container">
+        <iframe width="560" height="315" id="iframe" src="https://www.youtube.com/embed/ZXDKpJciPoI?start=66" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <section>
+        <h1>Lista de Preços</h1>
+        <ul id="ul">
+            <li>
+                <h2>Arroz = 19,90kg</h2>
+            </li>
+            <li>
+                <h2>Feijão = 5,90kg</h2>
+            </li>
+            <li>
+                <h2>Tomate = 9,90kg</h2>
+            </li>
+            <li>
+                <h2>Macarrão = 7,90kg</h2>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <script>
+            document.write(Date())
+        </script>
+        <p>Copyright &copy; 2020 ConsulNet.</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
